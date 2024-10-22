@@ -1,0 +1,35 @@
+/*Pls refer: https://www.freecodecamp.org/news/how-to-center-an-image-in-css/*/
+
+body {
+  text-align: center;
+}
+
+h1{
+  color: #B77E6B;
+  font-family: cursive;
+  font-size: 2rem;
+}
+#playArea {
+  height: 446px;
+  width: 640px;
+  margin: auto;
+  background-image: url("christmas.jpg");
+  position: relative; 
+}
+
+#diamond {
+  position: absolute;
+  width: 20%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+#score {
+  font-size: 2rem;
+  color: #7D63A8;  
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
